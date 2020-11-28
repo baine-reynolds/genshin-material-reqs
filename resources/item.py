@@ -1,8 +1,8 @@
-from  resources.items import item_ascensions as ascensions
-from  resources.items import items as items
-from  resources.items import materials as common_materials
-from  resources.items import uncommon_materials as uncommon_materials
-from  resources.items import weapon_materials as weapon_materials
+from resources.items import item_ascensions as ascensions
+from resources.items import items as items
+from resources.items import materials as common_materials
+from resources.items import uncommon_materials as uncommon_materials
+from resources.items import weapon_materials as weapon_materials
 
 class Item():
     def __init__(self, name: str, ascension_lvl: int):
